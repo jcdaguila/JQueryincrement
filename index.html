@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Practicas</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="functions.js"></script>
+</head>
+<body>
+<form>
+	<h2>Enter your Index (Index >= 0, -1 = No Index):</h2>
+	<input id="indice" type="number" name="theindice" value=-1 required="true" />
+	<br>
+	<h2>Original Version String:</h2>
+	<input id="original" value="1.0.0.z" readonly="readonly" disabled="disabled"/>
+	<br>
+	<h2>Enter your Version String:</h2>
+	<input id="cadena" type="text" name="thecadena" value="1.0.0.z" />
+	<br>
+	<br>
+	<input type="button" name="increase" value="Increase" onclick="resolv()" />
+</form>
+
+</body>
+</html>
